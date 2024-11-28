@@ -38,7 +38,7 @@
                     con pasión por el desarrollo de Software, haciendo cada trabajo para nuestros clientes
                     como si fuera propio.
                 </blockquote>
-                <img src="/Archivo_trabajoEnfoque/20150414-PiedPiper_peeps.jpg" alt="Imagen de miembros"
+                <img src="/20150414-PiedPiper_peeps.jpg" alt="Imagen de miembros"
                     style="width:100%; height:auto;">
             </article>
         </section>
@@ -77,10 +77,116 @@
     </main>
 
     <footer style="display: flex; justify-content: space-between; align-items: center;">
-        <nav>
-            <a id="contacto" href="#contacto" >Contacto</a>
-            <a id="trabaja" href="#trabaja-con-nosotros">Trabaja con nosotros</a>
-        </nav>
+        <details id="contacto">
+            <summary>Contacto</summary>
+            <p>Email: <a href="piedpiper@empresa.com">piedpier@empresa.com</a></p>
+            <p>Dirección: Calle Desarrollo , 12, Silicon Valley</p>
+        </details>
+
+        <details id="trabaja">
+            <summary>Trabaja con nosotros</summary>
+            <h3>Formulario de empleo</h3>
+            <form action="#" method="post">
+                <!-- Datos Personales -->
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" required><br><br>
+
+                    <label for="dni">DNI:</label>
+                    <input type="text" id="dni" name="dni" pattern="[0-9]{8}[A-Za-z]" required><br><br>
+
+                    <label for="sexo">Sexo:</label>
+                    <select id="sexo" name="sexo" required>
+                        <option value="">Seleccione</option>
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                        <option value="otro">Otro</option>
+                    </select><br><br>
+
+                    <label for="fecha-nacimiento">Fecha de nacimiento:</label>
+                    <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required><br><br>
+
+                    <label for="ciudad">Ciudad:</label>
+                    <input type="text" id="ciudad" name="ciudad" required><br><br>
+
+                    <label for="nacionalidad">Nacionalidad:</label>
+                    <input type="text" id="nacionalidad" name="nacionalidad" required><br><br>
+
+                    <label for="cp">Código Postal:</label>
+                    <input type="text" id="cp" name="cp" pattern="[0-9]{5}" required><br><br>
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                </fieldset>
+
+                <!-- Formación -->
+                <fieldset>
+                    <legend>Formación</legend>
+                    <label for="titulacion">Titulación:</label>
+                    <input type="text" id="titulacion" name="titulacion" required><br><br>
+
+                    <label for="inicio">Año de inicio:</label>
+                    <input type="date" id="inicio" name="inicio" required><br><br>
+
+                    <label for="fin">Año de finalización:</label>
+                    <input type="date" id="fin" name="fin" required><br><br>
+                </fieldset>
+
+                <!-- Idiomas -->
+                <fieldset>
+                    <legend>Idiomas</legend>
+                    <label for="idioma">Idioma:</label>
+                    <input type="text" id="idioma" name="idioma" required><br><br>
+
+                    <label for="hablado">Hablado:</label>
+                    <select id="hablado" name="hablado">
+                        <option value="excelente">Excelente</option>
+                        <option value="bien">Bien</option>
+                        <option value="regular">Regular</option>
+                        <option value="nada">Nada</option>
+                    </select><br><br>
+
+                    <label for="leido">Leído:</label>
+                    <select id="leido" name="leido">
+                        <option value="excelente">Excelente</option>
+                        <option value="bien">Bien</option>
+                        <option value="regular">Regular</option>
+                        <option value="nada">Nada</option>
+                    </select><br><br>
+
+                    <label for="escrito">Escrito:</label>
+                    <select id="escrito" name="escrito">
+                        <option value="excelente">Excelente</option>
+                        <option value="bien">Bien</option>
+                        <option value="regular">Regular</option>
+                        <option value="nada">Nada</option>
+                    </select><br><br>
+                </fieldset>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </details>
+    </footer>
+
+    <!-- Segundo footer para redes sociales -->
+    <footer class="social-footer">
+        <fieldset style="text-align: center; margin-left: 20px;">
+            <legend>También puedes visitarnos en:</legend>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="/81609.png" alt="Twitter" width="30" height="30">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="/vecteezy_linkedin-logo-png-linkedin-icon-transparent-png_18930585_835-1536x1536.png"
+                    alt="LinkedIn" width="30" height="30">
+            </a>
+        </fieldset>
     </footer>
 </body>
 
