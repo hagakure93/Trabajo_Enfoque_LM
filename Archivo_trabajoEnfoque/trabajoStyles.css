@@ -1,0 +1,75 @@
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #23d423;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    /* Centra el texto horizontalmente */
+
+
+}
+
+main {
+    background: linear-gradient(to bottom, #23d423, #e0e0e0);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+nav a {
+    color: rgb(5, 19, 5);
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 1px solid #090909;
+    padding: 8px;
+}
+
+table th {
+    background-color: #23d423;
+    color: rgb(10, 3, 3);
+}
+
+details summary:hover {
+    text-decoration: underline;
+    /* Aplica un subrayado */
+}
+
+
+footer {
+    background: linear-gradient(to bottom, #23d423, #2f984b);
+
+    color: rgb(9, 3, 3);
+    padding: 10px;
+    text-align: center;
+}
+
+.social-footer img {
+    margin: 0 10px;
+}
