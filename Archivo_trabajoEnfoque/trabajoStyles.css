@@ -18,6 +18,9 @@ h2 {
 
 
 }
+p {
+    text-align: center;
+}
 
 main {
     background: linear-gradient(to bottom, #23d423, #e0e0e0);
